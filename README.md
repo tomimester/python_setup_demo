@@ -8,3 +8,4 @@ python setup webinar kiegészítő cuccok
 - DigitalOcean Droplet (flexible, scalable, real life setup)
 
 DigitalOcean full tutorial: https://data36.com/data-coding-101-install-python-sql-r-bash/
+DigitalOcean $200 kredit: https://m.do.co/c/1e56c4c455b5
