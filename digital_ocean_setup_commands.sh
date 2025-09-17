@@ -1,5 +1,5 @@
 ##########################
-### 14 parancs összesen -- ne gépelj el semmit!!
+### 16 parancs összesen -- ne gépelj el semmit!!
 ### TELJES LEÍRÁS ITT: https://data36.com/data-coding-101-install-python-sql-r-bash/
 ##########################
 
@@ -25,6 +25,12 @@ sudo apt install python3-notebook
 jupyter notebook --generate-config
 echo "c.NotebookApp.ip = '*'" >> /home/[your_username]/.jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.allow_remote_access = True" >> /home/[your_username]/.jupyter/jupyter_notebook_config.py
+
+#install pandas3
+sudo apt-get install python3-pandas
+
+#install sklearn
+sudo apt-get install python3-sklearn
 
 #jupyter notebook futtatása
 jupyter notebook --browser any
