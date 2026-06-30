@@ -20,7 +20,6 @@ sudo apt install python3-pip
 #Claude Code Setup
 curl -fsSL https://claude.ai/install.sh | bash
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
-echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.profile
 claude --version
 claude
 
